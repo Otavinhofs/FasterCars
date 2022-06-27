@@ -1,0 +1,389 @@
+/*==========GERAL====================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+/*==========NAV-BAR====================================*/
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(242, 91, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 11rem;
+}
+
+#nav-bar li {
+  display: inline-block;
+  padding: 0.3rem 3rem;
+  background: white;
+  margin: 0.8rem 4rem;
+}
+
+/*
+The code for the logo.
+*/
+#header-img {
+  height: 9.5rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-style: solid;
+  border-radius: 2rem;
+  border-color: black;
+  background: white;
+  padding: 0.5rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 0.5rem;
+}
+
+#nav-bar a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#nav-bar li:hover {
+  text-decoration: underline;
+}
+/*==========TITLE====================================*/
+/*
+  --title--
+   CSS code for the title and background.
+  */
+.title-container {
+  display: flex;
+  background-image: url(https://i.pinimg.com/originals/99/fe/86/99fe86357b5c44b9c3dd9fac72341e39.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 70rem;
+}
+
+.title {
+  background: rgb(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1.6rem 60rem;
+  margin: 2rem 5rem;
+}
+
+.title h1 {
+  font-size: 6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  /*==========ABOUT US====================================*/
+  /*
+  --About Us-- 
+  CSS code for the container with information about your business.
+  */
+}
+.about-container {
+  background: rgb(28, 28, 28);
+  height: 60rem;
+  display: flex;
+}
+
+.about-container p {
+  font-size: 3.4rem;
+  color: white;
+  margin: 7rem 1.5rem 0 1.5rem;
+}
+
+.about-container h3 {
+  color: white;
+  margin: 4rem 0rem;
+  font-size: 4.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.box-p {
+  background: rgb(255, 140, 0);
+  margin-left: 40rem;
+  padding: 0.5rem 0rem;
+  width: 45rem;
+  height: 60rem;
+}
+
+.about-container iframe {
+  margin: 10rem 5rem;
+  border-style: none;
+  width: 76rem;
+  height: 41.5rem;
+}
+/*==========PRODUCT====================================*/
+/*
+--Product--
+This container I put the products, I can use a Grid style our Flexbox. In this example, I use Flexbox.
+*/
+.product-container {
+  background: gray;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 28rem;
+  border-radius: 1.5rem;
+  height: auto;
+  padding-bottom: 1rem;
+  margin: 10rem 2.5rem;
+}
+
+.card h3 {
+  color: black;
+  font-size: 3rem;
+  margin: 1rem 1.5rem;
+}
+
+.card p {
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2rem 4rem;
+  padding: 1rem;
+}
+
+.card-image {
+  background: lightblue;
+  height: 20rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-size: cover;
+}
+
+/*==========CARS====================================*/
+#car1 {
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg);
+}
+
+#car2 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__340.jpg);
+}
+
+#car3 {
+  background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/46/bmw-768688_960_720.jpg);
+}
+
+#car4 {
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/03/18/57/car-1880381_960_720.jpg);
+}
+
+#car5 {
+  background-image: url(https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+}
+
+#car6 {
+  background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+/*==========CONTACT====================================*/
+.contact-container {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
+  background-size: cover;
+  height: 80rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-background {
+  background: rgb(22, 22, 22, 0.9);
+  padding: 4rem;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container label {
+  display: block;
+  font-size: 2.6rem;
+  margin: 1rem 0;
+}
+
+.contact-container input {
+  padding: 0.5rem;
+  width: 45rem;
+  font-size: 20px;
+}
+
+.contact-container label,
+h2,
+h3 {
+  color: white;
+}
+
+.contact-container textarea {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 45rem;
+  height: 20rem;
+}
+
+.contact-container h2 {
+  font-size: 3.6rem;
+}
+
+.contact-container h3 {
+  font-size: 2.4rem;
+}
+
+.contact-container button {
+  width: 45rem;
+  margin: 2.5rem 0 0 0;
+  padding: 1rem;
+}
+/*==========@media====================================*/
+/*
+@media for work width=1400px.
+*/
+@media all and (max-width: 1400px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-p {
+    background: rgb(255, 140, 0);
+    margin: 20px 0;
+    padding: 0px 30px 30px 30px;
+    width: auto;
+    height: auto;
+  }
+
+  .about-container iframe {
+    border-style: none;
+    width: 500px;
+    height: 340px;
+    margin: 30px 0 0 0;
+  }
+}
+/*
+   we maked a @media that allows to your website work in a phone.
+  */
+@media all and (max-width: 600px) {
+  /*
+   @media for your nav bar.
+  */
+  #nav-bar {
+    flex-direction: column;
+    height: 150px;
+  }
+  #header-img {
+    position: static;
+    height: 80px;
+    margin-top: 5px;
+  }
+  #nav-bar li {
+    display: inline-block;
+    padding: 3px 15px;
+    background: white;
+    margin: 8px 5px;
+  }
+  /*
+   @media for your title container.
+  */
+  .title {
+    padding: 60px 100px;
+    margin: 20px 50px;
+  }
+  /*
+   @media for your about container.
+  */
+  .about-container {
+    height: 750px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-p {
+    background: rgb(255, 140, 0);
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+  }
+  .about-container h3 {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+  }
+  .about-container p {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .about-container iframe {
+    border-style: none;
+    width: 370px;
+    height: 285px;
+    margin: 30px 0 0 0;
+  }
+  .card {
+    margin: 25px 10px 5px 10px;
+    width: 360px;
+  }
+  /*
+  @media for contact container.
+  */
+  .contact-container {
+    height: 700px;
+    padding: 10px;
+  }
+  .contact-background {
+    background: rgb(22, 22, 22, 0.9);
+    padding: 30px;
+    margin: 10px;
+  }
+  .contact-container input {
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+  }
+  .contact-container label {
+    display: block;
+    font-size: 26px;
+    margin: 10px 0;
+  }
+  .contact-container textarea {
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 140px;
+  }
+  .contact-container button {
+    width: 300px;
+    margin: 25px 0 0 0;
+    padding: 10px;
+  }
+}

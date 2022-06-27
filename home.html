@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/fastcarlogo.jpg">
+  <title>Faster Cars</title>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <!--
+     Nav bar who are the buttons.
+-->
+      <div class="logo">
+        <a href="#title-container"><img src="/assets/fastcarlogo.jpg" alt="logo" id="header-img"></a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/home.html" class="nav-link">Sobre</a></li>
+          
+          <li><a href="/product.html" class="nav-link">Produtos</a></li>
+          
+          <li><a href="/contact.html" class="nav-link">Contato</a></li>
+
+          <li><a href="/payment.html" class="nav-link">Pagamento</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--
+     Title and a litle resume. I put a background-image to be more beautiful.
+-->
+    <div class="title-container" id="title-container">
+      <div class="title">
+        <h1>Faster cars</h1>
+        <h2>Caros com qualidade e preços baixos.</h2>
+      </div>
+    </div>
+    <!--
+    In this container I can put a little resume about your shop, and add a image, video our another information of our choice.
+-->
+    <div class="about-container" id="about-us">
+      <!--
+   I used a youtube video for example.
+-->
+      <div>
+        <iframe src="https://www.youtube.com/embed/UT5hhWLtewM" muted id=video>
+        </iframe>
+      </div>
+      <div class="box-p">
+        <h3>Sobre Nós:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+    <!--
+    In this container I can put your products.
+-->
+    <div class="product-container" id="product">
+      <div class="card">
+        <div class="card-image" id="car1"></div>
+        <h3>Carro 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus neque eu volutpat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#">MOSTRAR MAIS</a>
+      </div>
+      <div class="card">
+        <div class="card-image" id="car2"></div>
+        <h3>Carro 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus neque eu volutpat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#">MOSTRAR MAIS</a>
+      </div>
+      <div class="card">
+        <div class="card-image" id="car3"></div>
+        <h3>Carro 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus neque eu volutpat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#">MOSTRAR MAIS</a>
+      </div>
+      <div class="card">
+        <div class="card-image" id="car4"></div>
+        <h3>Carro 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus neque eu volutpat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#">MOSTRAR MAIS</a>
+      </div>
+      <div class="card">
+        <div class="card-image" id="car5"></div>
+        <h3>Carro 5</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus neque eu volutpat porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#">MOSTRAR MAIS</a>
+      </div>
+    </div>
+    <!--
+    This container is for receiving information.
+-->
+    <div class="contact-container" id="contact">
+      <div class="contact-background">
+        <h2>Fale Conosco</h2>
+        <h3>Dê sua opinião, por favor.</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Insira seu nome" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Inisira seu email" required>
+          </div>
+          <div>
+            <label for="contact">Contato</label>
+            <input type="text" name="contact" placeholder="Inisira seu número de contato" required>
+          </div>
+          <div>
+            <label for="textarea">Escreva sua opinião</label>
+            <textarea name="textarea" placeholder="Sua mensagem"></textarea>
+          </div>
+          <div>
+            <input type="submit" id="submit" value="Enviar">
+          </div>
+      </div>
+      </form>
+    </div>
+  </main>
+</body>
+</body>
+</html>
