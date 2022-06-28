@@ -219,7 +219,7 @@ This container I put the products, I can use a Grid style our Flexbox. In this e
 .contact-container {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
   background-size: cover;
-  height: 84rem;
+  height: calc(100vh - 11rem);
   padding: 0;
   display: flex;
   justify-content: center;
