@@ -92,7 +92,7 @@ The code for the logo.
 }
 .about-container {
   background: rgb(28, 28, 28);
-  height: 60rem;
+  height: 62rem;
   display: flex;
 }
 
@@ -111,10 +111,10 @@ The code for the logo.
 
 .box-p {
   background: rgb(255, 140, 0);
-  margin-left: 40rem;
+  margin-left: 35rem;
   padding: 0.5rem 0rem;
   width: 45rem;
-  height: 60rem;
+  height: 62rem;
 }
 
 .about-container iframe {
@@ -129,7 +129,8 @@ The code for the logo.
 This container I put the products, I can use a Grid style our Flexbox. In this example, I use Flexbox.
 */
 .product-container {
-  background: gray;
+  background: rgb(0, 0, 0);
+  margin-top: 11rem;
   height: auto;
   display: flex;
   justify-content: center;
@@ -176,7 +177,7 @@ This container I put the products, I can use a Grid style our Flexbox. In this e
 
 /*==========CARS====================================*/
 #car1 {
-  background-image: url(https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__340.jpg);
 }
 
 #car2 {
@@ -184,30 +185,47 @@ This container I put the products, I can use a Grid style our Flexbox. In this e
 }
 
 #car3 {
-  background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/46/bmw-768688_960_720.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__340.jpg);
 }
 
 #car4 {
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/03/18/57/car-1880381_960_720.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__340.jpg);
 }
 
 #car5 {
-  background-image: url(https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__340.jpg);
 }
 
 #car6 {
   background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 }
 
+#car7 {
+  background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+#car8 {
+  background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+#car9 {
+  background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+#car10 {
+  background-image: url(https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
 /*==========CONTACT====================================*/
 .contact-container {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506_960_720.jpg);
   background-size: cover;
-  height: 80rem;
+  height: 84rem;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 11rem;
+  overflow-y: hidden;
 }
 
 .contact-background {
