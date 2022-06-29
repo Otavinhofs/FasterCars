@@ -4,7 +4,6 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   margin-top: 12rem;
-
 }
 
 :root {
@@ -16,7 +15,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.payment-container{
+.payment-container {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25lg1a6eIn8sKy5tkIRgC9AgeaYylF77c2g&usqp=CAU);
   background-size: cover;
   height: calc(100vh - 11rem);
@@ -28,23 +27,20 @@ input::-webkit-inner-spin-button {
   font-size: 10px;
   text-decoration: none;
   color: rgb(255, 255, 255);
- 
 }
 .payment-background {
   background: rgb(22, 22, 22, 0.9);
 
   padding: 30px 30px;
 }
-.payment-background label{
+.payment-background label {
   display: block;
-  padding-top:15px;
+  padding-top: 15px;
 }
-.payment-background input{
+.payment-background input {
   height: 30px;
-  width:300px;
+  width: 300px;
 }
-.titulo{
+.titulo {
   font-size: 18px;
 }
-
-
