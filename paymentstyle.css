@@ -3,35 +3,48 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  margin-top: 12rem;
+
 }
 
 :root {
   font-size: 62.5%; /* 1rem = 10px */
 }
-.dados {
-  margin-top: 11rem;
-}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.dados .formulario input {
+.payment-container{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25lg1a6eIn8sKy5tkIRgC9AgeaYylF77c2g&usqp=CAU);
+  background-size: cover;
+  height: calc(100vh - 11rem);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ 
+}
+.payment-background {
+  background: rgb(22, 22, 22, 0.9);
+
+  padding: 30px 30px;
+}
+.payment-background label{
   display: block;
-  margin-top: 1rem;
+  padding-top:15px;
 }
-.dados .formulario .genero {
-  display: inline;
-  margin-left: 1rem;
+.payment-background input{
+  height: 30px;
+  width:300px;
 }
-.dados .formulario .data {
-  display: block;
-  margin-top: 1rem;
+.titulo{
+  font-size: 18px;
 }
-form {
-  font-size: 1.8rem;
-}
-.sexo {
-  font-size: 2rem;
-  font-weight: 100;
-}
+
+
